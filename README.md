@@ -4,6 +4,9 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=seekerk_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=seekerk_ctest)
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
 
+[![Build Status](https://github.com/x2late2take/orpo_lab2/workflows/CI/badge.svg)](https://github.com/x2late2take/orpo_lab2/actions)
+
+
 # Пример работы связки Qt + Google Test (gtest) + QtCreator
 
 ## Загрузка и запуск примера на локальном компьютере
