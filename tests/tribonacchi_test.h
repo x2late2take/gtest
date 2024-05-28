@@ -10,14 +10,16 @@ extern "C" {
 #include "tribonacchi.h"
 }
 
-TEST(tribonacchiTest, num7) {
-    ASSERT_EQ(tribonacchi(5), 7);
+TEST(tribonacchiTest, num0) {
+    ASSERT_EQ(tribonacchi(0), 0);
+    ASSERT_EQ(tribonacchi(1), 1);
+    ASSERT_EQ(tribonacchi(2), 1);
 }
 
-TEST(tribonacchiTest, num149) {
-    ASSERT_EQ(tribonacchi(10), 7);
+TEST(tribonacchiTest, negativeInput) {
+    ASSERT_EQ(tribonacchi(-5), 0);
 }
 
-TEST(tribonacchiTest, num66012) {
-    ASSERT_EQ(tribonacchi(20), 66012);
+TEST(tribonacchiTest, largeValue) {
+    ASSERT_EQ(tribonacchi(50), 5742568741225);
 }
