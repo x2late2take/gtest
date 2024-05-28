@@ -1,10 +1,10 @@
-[![CI/CD GitHub Actions](https://github.com/seekerk/gtest/actions/workflows/test-action.yml/badge.svg)](https://github.com/seekerk/gtest/actions/workflows/test-action.yml)
-[![Coverage Status](https://coveralls.io/repos/seekerk/gtest/badge.svg?branch=master)](https://coveralls.io/github/seekerk/gtest?branch=master)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=seekerk_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=seekerk_ctest)
-[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
+[![CI/CD GitHub Actions](https://github.com/x2late2take/gtest/actions/workflows/test-action.yml/badge.svg)](https://github.com/x2late2take/gtest/actions/workflows/test-action.yml)
+[![Coverage Status](https://coveralls.io/repos/x2late2take/gtest/badge.svg?branch=master)](https://coveralls.io/github/x2late2take/gtest?branch=master)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=x2late2take_gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=x2late2take_gtest)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=x2late2take_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=x2late2take_ctest)
+[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=x2late2take_gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=x2late2take_gtest)
 
-[![Build Status](https://github.com/x2late2take/orpo_lab2/workflows/CI/badge.svg)](https://github.com/x2late2take/orpo_lab2/actions)
+[![Build Status](https://github.com/x2late2take/gtest/workflows/CI/badge.svg)](https://github.com/x2late2take/gtest/actions)
 
 
 # Пример работы связки Qt + Google Test (gtest) + QtCreator
