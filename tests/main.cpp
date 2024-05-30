@@ -1,4 +1,4 @@
-#include "tribonacchi_test.h"
+de "quadraticEquations_test.h"
 
 #include <gtest/gtest.h>
 

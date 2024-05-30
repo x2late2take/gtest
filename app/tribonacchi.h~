@@ -1,6 +1,0 @@
-#ifndef TRIBONACCHI_H
-#define TRIBONACCHI_H
-
-unsigned long long tribonacchi(int n);
-
-#endif // TRIBONACCHI_H

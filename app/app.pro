@@ -4,10 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.c \
-    tribonacchi.c
+    quadraticEquations.c
 
 HEADERS += \
-    tribonacchi.h
+    quadraticEquations.h
 
 QMAKE_CFLAGS += -Wall -Wextra -Werror
 

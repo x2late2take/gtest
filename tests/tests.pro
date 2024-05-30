@@ -16,11 +16,11 @@ LIBS += -lgcov
 
 DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
-HEADERS +=     ../app/tribonacchi.h \
-    tribonacchi_test.h
+HEADERS +=     ../app/quadraticEquations.h \
+    quadraticEquations_test.h
 
 SOURCES +=     main.cpp \
-    ../app/tribonacchi.c
+    ../app/quadraticEquations.c
 
 INCLUDEPATH += ../app
 
