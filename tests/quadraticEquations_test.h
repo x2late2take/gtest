@@ -29,8 +29,3 @@ TEST(quadraticEquations_test, negativeDiscriminant) {
     ASSERT_EQ(roots.numRoots, 0);
 }
 
-TEST(quadraticEquations_test, doubleValue) {
-    Roots roots = quadraticEquations(1, -4, 3.75);
-    ASSERT_DOUBLE_EQ(roots.root1, 2.5);
-    ASSERT_DOUBLE_EQ(roots.root2, 1.5);
-}

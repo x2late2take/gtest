@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "tribonacchi.h"
+#include "quadraticEquations.h"
 
 int main() {
     return 0;
