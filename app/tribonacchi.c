@@ -1,16 +1,21 @@
-#include "tribonacchi.h"
+#include <math.h>
+#include <tribonacchi.h>
 
-int long long tribonacchi(int n) {
-    if (n == 0) return 0;
-    if (n == 1 || n == 2) return 1;
+Roots tribonacchi(double a, double b, double c) {
+    Roots roots;
+    double discriminant = b * b - 4 * a * c;
 
-    int long long a = 0, b = 1, c = 1, d = 0;
-    for (int i = 3; i <= n; i++) {
-        d = a + b + c;
-        a = b;
-        b = c;
-        c = d;
+        roots.discriminant = discriminant;
+    if (discriminant > 0) {
+        roots.root1 = (-b + sqrt(discriminant)) / (2 * a);
+        roots.root2 = (-b - sqrt(discriminant)) / (2 * a);
+        roots.numRoots = 0;
+    } else if (discriminant == 0) {
+        roots.root1 = roots.root2 = -b / (2 * a);
+        roots.numRoots = 1;
+    } else {
+        roots.numRoots = 2;
     }
-    return d;
-}
 
+    return roots;
+}
