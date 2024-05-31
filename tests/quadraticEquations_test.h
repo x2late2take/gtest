@@ -15,7 +15,7 @@ TEST(quadraticEquations_test, positiveDiscriminant) {
     // Вызов функции с коэффициентами, дающими положительный дискриминант
     Roots roots = quadraticEquations(1, -3, 2);
     // Проверка, что функция возвращает два корня
-    ASSERT_EQ(roots.numRoots, 0);
+    ASSERT_EQ(roots.numRoots, 2);
     // Проверка точности вычисленных корней
     ASSERT_DOUBLE_EQ(roots.root1, 2);
     ASSERT_DOUBLE_EQ(roots.root2, 1);
@@ -37,5 +37,5 @@ TEST(quadraticEquations_test, negativeDiscriminant) {
     // Вызов функции с коэффициентами, дающими отрицательный дискриминант
     Roots roots = quadraticEquations(1, 2, 5);
     // Проверка, что функция не возвращает корней
-    ASSERT_EQ(roots.numRoots, 2);
+    ASSERT_EQ(roots.numRoots, 0);
 }
